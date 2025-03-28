@@ -22,7 +22,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "managerID": "731444706919219200",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "731444706919219200",
       "name": "TJ Abode",
       "location": "Phillipsburg", // (optional)
       "bio": "Winner",
