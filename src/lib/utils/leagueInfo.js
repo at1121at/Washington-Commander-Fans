@@ -45,15 +45,15 @@ export const managers = [
     {
       "managerID": "1052031413117743104",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Matthew Abode",
-      "location": "Madison", // (optional)
-      "bio": "Win",
+      "location": "Wisconsin", // (optional)
+      "bio": "Matt is the embodiment of excellence, charisma, and determination. From an early age, it was clear that he was destined for greatness, standing out not only for his physical prowess but also for his exceptional intelligence, drive, and natural charm.Born in a small town, Matt grew up with a strong sense of community and an unwavering passion for pushing his limits. Whether it was dominating on the sports field or excelling in academics, Matt was always the one to beat. His athleticism was unmatched, earning him accolades in every sport he touched, from football to basketball, and even becoming a local legend in track and field.But Matt's greatness extends beyond his physical abilities. He possesses a razor-sharp mind, which he applied to his academic pursuits, earning top honors in school and beyond. His dedication to learning has allowed him to excel in his career, where he quickly rose through the ranks, proving himself as both a leader and a visionary.Despite his many accomplishments, Matt has never let success define him. He remains grounded, with a humility that endears him to everyone he meets. His genuine kindness and willingness to help others have made him a mentor and role model for countless individuals, showing that being a "stud" is not just about physical strength or intelligence but about lifting up those around you.Matt's charisma, work ethic, and commitment to excellence have made him a true standout. Whether he's motivating a team, solving a complex problem, or simply making someone’s day better with a smile, Matt continues to inspire those fortunate enough to know him. His legacy is not just one of success but of impact—proving that an absolute stud isn't just someone who wins, but someone who makes the world better, one moment at a time.",
       "photo": "/managers/Zero.webp", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2024, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "TJ Abode", // Can be anything (usually your rival's name)
-        link: 0, // manager array number within this array, or null to link back to all managers page
+        name: "Jaxxon Fulper", // Can be anything (usually your rival's name)
+        link: 3, // manager array number within this array, or null to link back to all managers page
         image: "/managers/pervy.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 5927, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
