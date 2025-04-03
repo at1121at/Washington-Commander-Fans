@@ -24,16 +24,16 @@ export const managers = [
     {
       "managerID": "731444706919219200",
       "name": "TJ Abode",
-      "location": "Phillipsburg", // (optional)
+      "location": "The Hidden leaf Village", // (optional)
       "bio": "Winner",
       "photo": "/managers/pervy.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2024, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Matthew Abode", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Zero.webp", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "All", // Can be anything (usually your rival's name)
+        link: Null, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 5927, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
