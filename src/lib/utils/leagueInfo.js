@@ -46,7 +46,7 @@ export const managers = [
       "managerID": "1052031413117743104",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Matthew Abode",
       "location": "Wisconsin", // (optional)
-      "bio": "Win",
+      "bio": "Matt is the embodiment of excellence, charisma, and determination. From an early age, it was clear that he was destined for greatness, standing out not only for his physical prowess but also for his exceptional intelligence, drive, and natural charm.",
       "photo": "/managers/Zero.webp", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2024, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
